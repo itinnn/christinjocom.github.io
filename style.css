@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #ff7eb9; /* Pink */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #ff7eb9; /* Pink */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+section h2 {
+    border-bottom: 2px solid #ff7eb9; /* Pink */
+    padding-bottom: 10px;
+    color: #ff7eb9; /* Pink */
+}
+
+.article-card {
+    border: 1px solid #ff7eb9; /* Pink */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-card h3 {
+    margin-top: 0;
+    color: #ff7eb9; /* Pink */
+}
+
+.article-card p {
+    margin-bottom: 10px;
+}
+
+.read-more {
+    color: #ff7eb9; /* Pink */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+    color: #ff5f9a; /* Darker Pink */
+}
