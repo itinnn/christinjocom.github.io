@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (!isset($_SESSION['username'])) {
+    header('Location: login.php');
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +22,7 @@
             <a href="#gallery">Gallery</a> |
             <a href="#blog">Blog</a> |
             <a href="#contact">Contact</a> |
+            <a href="logout.php">Logout</a> |
             <a id="light" href="javascript:;" onclick="dark();">Dark Mode</a>
         </nav>
     </header>
